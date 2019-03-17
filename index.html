@@ -13,21 +13,21 @@
     <link rel="stylesheet" type="text/css" media="screen" href="home.css">
 </head>
 <body>
-<nav class="navbar navbar-expand-lg navbar-light container d-flex">
+<nav class="navbar navbar-expand-md navbar-light container d-flex">
     <a class="navbar-brand" href="index.html">A.<span class="c-logo">C</span></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
 
-    <div class="collapse navbar-collapse" id="navbar">
-        <ul class="navbar-nav ml-auto">
+    <div class="collapse navbar-collapse justify-content-end" id="navbar">
+        <ul class="navbar-nav justify-content-between">
             <li class="nav-item active">
                 <a class="nav-link" href="index.html">Design<span class="sr-only">(current)</span></a>
             </li>
-            <li class="nav-item ml-5">
+            <li class="nav-item">
                 <a class="nav-link" href="#">About</a>
             </li>
-            <li class="nav-item ml-5">
+            <li class="nav-item">
                 <a class="nav-link" href="resume.pdf">Resume</a>
             </li>
         </ul>
@@ -36,19 +36,19 @@
 
 <div class="container main">
     <div class="row landing-body">
-        <div class="col-8">
+        <div class="col-lg-8">
             <div class="main-info">
                 <h1>Hi, I'm Andy Cheng, <img id="waveicon" src="waveicon.png"></h1>
                 <h1>a <span>Student</span> and <span>Designer</span>.</h1>
             </div>
-            <div class="sub-info mt-5">
-                <p>I am passionate about human-centered design,</p>
-                <p>and am interested in developing solutions and products</p>
-                <p>that are meaningful, relevant, and exciting.</p>
+            <div class="sub-info mt-5 d-none d-md-block">
+                <p>I am passionate about human-centered design,
+                and am interested in developing solutions and products
+                that are meaningful, relevant, and exciting.</p>
             </div>
         </div>
 
-        <div class="col-4" id="profpic">
+        <div class="col-lg-4" id="profpic">
             <img src="profpic.jpg">
         </div>
     </div>  
