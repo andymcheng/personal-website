@@ -2,20 +2,28 @@ body {
     font-family: "Poppins"
 }
 
-#c-logo {
-    color: #00A5EC;
+.navbar-brand img {
+    width: 45px;
 }
 
 #navbar ul {
     width: 35%;
 }
 
-.main {
+.navbar-light .navbar-nav .active>.nav-link {
+    color: #00A5EC;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #00A5EC;
+}
+
+.main-landing {
     height: 76vh;
 }
 
 .main-info h1 {
-    font-size: 48px;
+    font-size: 3rem;
     font-weight: 700;
 }
 
@@ -25,7 +33,7 @@ body {
 
 .sub-info p {
     margin: 0;
-    font-size: 25px;
+    font-size: 1.2rem;
     color: #777777;
 }
 .landing-body {
@@ -33,7 +41,7 @@ body {
     margin-bottom: 10%;
 }
  #waveicon {
-     width: 70px;
+     width: 10%;
  }
 
  #profpic img {
