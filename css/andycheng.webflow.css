@@ -267,7 +267,7 @@ img {
   margin-top: 44px;
 }
 
-.sricky-bottom {
+.sticky-bottom {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -277,6 +277,7 @@ img {
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
+  margin-bottom: 16px;
 }
 
 .projects-section {
