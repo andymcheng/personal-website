@@ -439,7 +439,11 @@ img {
 }
 
 .about-pic {
-  height: 65vh;
+  height: 50vh;
+}
+
+.about-pic._2 {
+  height:65vh;
 }
 
 .about-landing-img {
