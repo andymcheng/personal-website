@@ -90,12 +90,11 @@ img {
 }
 
 .landing-section {
-  position: relative;
+  position: static;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  width: auto;
   height: 100vh;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -729,6 +728,12 @@ img {
   }
   .h3 {
     margin-bottom: 0px;
+    font-size: 20px;
+  }
+  .h3.journey {
+    margin-top: 8px;
+    margin-bottom: 12px;
+    margin-left: -133px;
   }
   .contact-wrap {
     margin-top: 16px;
@@ -782,6 +787,55 @@ img {
   .footer-content {
     width: 70vw;
     min-width: 650px;
+  }
+  .about-landing-img {
+    margin-left: 0px;
+  }
+  .about-landing-wrap {
+    min-width: 650px;
+  }
+  .greeting {
+    margin-left: 40vw;
+  }
+  .arrow-1 {
+    margin-left: 45vw;
+  }
+  .middler {
+    margin-top: 0px;
+    margin-left: 40vw;
+  }
+  .image-3 {
+    margin-left: -236px;
+  }
+  .h2 {
+    font-size: 28px;
+  }
+  .flex.dist {
+    -webkit-justify-content: space-around;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    text-align: center;
+  }
+  .flex.dist.vert {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  .flex.vert {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  .about-section {
+    margin-top: 0px;
+  }
+  .about-section.fixed {
+    width: auto;
+    max-width: 650px;
   }
 }
 
