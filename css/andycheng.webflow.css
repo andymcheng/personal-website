@@ -883,9 +883,9 @@ img {
   }
   .landing-section {
     background-color: transparent;
-    background-image: url('../images/logo-faded-20.svg');
-    background-position: 72% 20%;
-    background-size: 85vw;
+    background-image: url('../images/faded-15.svg');
+    background-position: 100% 50%;
+    background-size: contain;
     background-repeat: no-repeat;
   }
   .display-large {
