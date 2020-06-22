@@ -722,6 +722,9 @@ img {
   .nav-link.w--current {
     margin-left: auto;
   }
+  .nav-link {
+    margin-left: 0;
+  }
   .nav-container {
     min-width: 650px;
   }
