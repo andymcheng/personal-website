@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!--  This site was created in Webflow. http://www.webflow.com  -->
-<!--  Last Published: Wed Jun 24 2020 21:53:01 GMT+0000 (Coordinated Universal Time)  -->
+<!--  Last Published: Sun Jun 28 2020 14:00:07 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="5ef39a055f51586139434b3f" data-wf-site="5ee0e3753d949785180545b1">
 <head>
   <meta charset="utf-8">
@@ -20,6 +20,9 @@
   <link href="../images/webclip.png" rel="apple-touch-icon">
 </head>
 <body>
+  <div class="loading">
+    <div class="loading-icon-wrap"><img src="../images/logo-c.svg" alt="" class="logo-base"><img src="../images/logo-exclamation.svg" alt="" class="logo-abs"></div>
+  </div>
   <div data-collapse="small" data-animation="default" data-duration="400" role="banner" class="navbar w-nav">
     <div class="nav-container w-container"><a href="../index.html" class="brand w-nav-brand"><img src="../images/Artboard-1.svg" height="30" alt=""></a>
       <nav role="navigation" class="nav-menu w-nav-menu"><a href="../index.html" class="nav-link w-nav-link">Projects</a><a href="../about.html" class="nav-link w-nav-link">About me</a><a href="../documents/andycheng.pdf" class="nav-link w-nav-link">Resume</a><a href="mailto:andy.m.cheng@rice.edu" class="nav-link w-nav-link">Contact me</a></nav>
@@ -76,7 +79,11 @@
         </div>
         <div class="sub-detail-item">
           <h4 class="h4 openstax">Tools</h4>
-          <p class="text-content">Figma    Photoshop    inVision    usertesting.com    HTML/CSS</p>
+          <div class="text-content inline">Figma</div>
+          <div class="text-content inline">Photoshop</div>
+          <div class="text-content inline">inVision</div>
+          <div class="text-content inline">usertesting.com</div>
+          <div class="text-content inline">HTML/CSS</div>
         </div>
       </div>
     </div>
@@ -99,15 +106,15 @@
       </div>
     </div>
     <div class="diagram-wrap">
-      <div class="flex center">
+      <div class="flex center mobile">
         <div class="day-to-day-diagram"><img src="../images/eye.svg" alt="">
-          <h3 class="h3">Competitive analysis</h3>
+          <h3 class="h3 center">Competitive analysis</h3>
         </div>
         <div class="day-to-day-diagram"><img src="../images/pen-tool.svg" alt="">
-          <h3 class="h3">Flow redesign</h3>
+          <h3 class="h3 center">Flow redesign</h3>
         </div>
         <div class="day-to-day-diagram"><img src="../images/users.svg" alt="">
-          <h3 class="h3">User testing</h3>
+          <h3 class="h3 center">User testing</h3>
         </div>
       </div>
     </div>
@@ -115,7 +122,7 @@
       <p class="text-content">Within the UX team, I provided feedback during design critiques, and worked with other designers to ideate and refine ideas. Being a student myself and given my access to other students, I served as a user researcher for other team members.</p>
     </div>
     <div class="diagram-wrap">
-      <div class="flex center">
+      <div class="flex center mobile">
         <div class="day-to-day-diagram"><img src="../images/message-circle.svg" alt="">
           <h3 class="h3">Design critiques</h3>
         </div>
@@ -207,49 +214,49 @@
         <p class="text-content">OpenNotes was our concept for an online notetaking platform built adjacent to the textbook experience. It is opened side by side with the text, enabling seamless and low-friction use.</p>
       </div>
     </div>
-    <div class="os-screen-wrap"><img src="../images/base-page.png" srcset="../images/base-page.png 500w, ../images/base-page.png 800w, ../images/base-page.png 1080w, ../images/base-page.png 1442w" sizes="(max-width: 991px) 100vw, 2837.875px" alt="" class="openstax-screen">
+    <div class="os-screen-wrap"><img src="../images/base-page.png" srcset="../images/base-page-p-500.png 500w, ../images/base-page-p-800.png 800w, ../images/base-page-p-1080.png 1080w, ../images/base-page.png 1442w" sizes="(max-width: 991px) 95vw, 2660.512451171875px" alt="" class="openstax-screen">
       <div class="openstax-img-label">Textbook reader with OpenNotes button on right side</div>
     </div>
-    <div class="os-screen-wrap"><img src="../images/new-notes.png" srcset="../images/new-notes.png 500w, ../images/new-notes.png 800w, ../images/new-notes.png 1440w" sizes="(max-width: 991px) 100vw, 2833.9375px" alt="" class="openstax-screen">
+    <div class="os-screen-wrap"><img src="../images/new-notes.png" srcset="../images/new-notes-p-500.png 500w, ../images/new-notes-p-800.png 800w, ../images/new-notes.png 1440w" sizes="(max-width: 991px) 95vw, 2656.824951171875px" alt="" class="openstax-screen">
       <div class="openstax-img-label">Opening OpenNotes enters split view</div>
     </div>
     <div class="proj-section-wrap">
       <p class="text-content">The feature is focused on notetaking and improving student learning; unnecessary word processing features like fonts, font sizes, margins, and styles were removed. Instead, all of OpenNotes&#x27; provided tools are meant to aid students in taking better notes and reviewing for tests.</p>
     </div>
-    <div class="os-screen-wrap"><img src="../images/highlighter.png" srcset="../images/highlighter.png 500w, ../images/highlighter.png 800w, ../images/highlighter.png 1440w" sizes="(max-width: 991px) 100vw, 2833.9375px" alt="" class="openstax-screen">
+    <div class="os-screen-wrap"><img src="../images/highlighter.png" srcset="../images/highlighter-p-500.png 500w, ../images/highlighter-p-800.png 800w, ../images/highlighter.png 1440w" sizes="(max-width: 991px) 95vw, 2656.824951171875px" alt="" class="openstax-screen">
       <div class="openstax-img-label">Highlighter tool</div>
     </div>
-    <div class="os-screen-wrap"><img src="../images/pen.png" srcset="../images/pen.png 500w, ../images/pen.png 800w, ../images/pen.png 1080w, ../images/pen.png 1440w" sizes="(max-width: 991px) 100vw, 2833.9375px" alt="" class="openstax-screen">
+    <div class="os-screen-wrap"><img src="../images/pen.png" srcset="../images/pen-p-500.png 500w, ../images/pen-p-800.png 800w, ../images/pen-p-1080.png 1080w, ../images/pen.png 1440w" sizes="(max-width: 991px) 95vw, 2656.824951171875px" alt="" class="openstax-screen">
       <div class="openstax-img-label">Pen tool</div>
     </div>
     <div class="proj-section-wrap">
       <p class="text-content">Using the tagging tool, users are able to mark notes with meaningful icons. If a topic is important, they can mark that section in their notes with an exclamation, or if topic is particularly tough, students can designate that section for review with glasses. By using these symbols, students can actively assess the notes they are taking, and provide meaningful, visual indications for themselves.</p>
     </div>
-    <div class="os-screen-wrap"><img src="../images/tag.png" srcset="../images/tag.png 500w, ../images/tag.png 800w, ../images/tag.png 1440w" sizes="(max-width: 991px) 100vw, 2833.9375px" alt="" class="openstax-screen">
+    <div class="os-screen-wrap"><img src="../images/tag.png" srcset="../images/tag-p-500.png 500w, ../images/tag-p-800.png 800w, ../images/tag.png 1440w" sizes="(max-width: 991px) 95vw, 2656.824951171875px" alt="" class="openstax-screen">
       <div class="openstax-img-label">Tagging tool with meaningful icons</div>
     </div>
     <div class="proj-section-wrap">
       <p class="text-content">The layout of the notes into cards helps students organize and group material into smaller, more understandable sections. These cards or sections can be collapsed during review for a comprehensive overview of the material. When used in conjunction with the tagging tool, students would be able to efficiently recognize important or challenging topics, and selectively expand those notes for review.</p>
     </div>
-    <div class="os-screen-wrap"><img src="../images/collapsed.png" srcset="../images/collapsed.png 500w, ../images/collapsed.png 800w, ../images/collapsed.png 1440w" sizes="(max-width: 991px) 100vw, 2833.9375px" alt="" class="openstax-screen">
+    <div class="os-screen-wrap"><img src="../images/collapsed.png" srcset="../images/collapsed-p-500.png 500w, ../images/collapsed-p-800.png 800w, ../images/collapsed.png 1440w" sizes="(max-width: 991px) 95vw, 2656.824951171875px" alt="" class="openstax-screen">
       <div class="openstax-img-label">Collapsed notes</div>
     </div>
-    <div class="os-screen-wrap"><img src="../images/expanded.png" srcset="../images/expanded.png 500w, ../images/expanded.png 800w, ../images/expanded.png 1440w" sizes="(max-width: 991px) 100vw, 2833.9375px" alt="" class="openstax-screen">
+    <div class="os-screen-wrap"><img src="../images/expanded.png" srcset="../images/expanded-p-500.png 500w, ../images/expanded-p-800.png 800w, ../images/expanded.png 1440w" sizes="(max-width: 991px) 95vw, 2656.824951171875px" alt="" class="openstax-screen">
       <div class="openstax-img-label">Expanded notes</div>
     </div>
-    <div class="os-screen-wrap"><img src="../images/Partial-Expand.png" srcset="../images/Partial-Expand.png 500w, ../images/Partial-Expand.png 800w, ../images/Partial-Expand.png 1440w" sizes="(max-width: 991px) 100vw, 2833.9375px" alt="" class="openstax-screen">
+    <div class="os-screen-wrap"><img src="../images/Partial-Expand.png" srcset="../images/Partial-Expand-p-500.png 500w, ../images/Partial-Expand-p-800.png 800w, ../images/Partial-Expand.png 1440w" sizes="(max-width: 991px) 95vw, 2656.824951171875px" alt="" class="openstax-screen">
       <div class="openstax-img-label">Notes can be partially expanded</div>
     </div>
     <div class="proj-section-wrap">
       <p class="text-content">OpenNotes also provides a way for students to create alternative note formats, like Cornell or Matrix style notes, which our research had indicated boosted student performance. A feature concept for Cornell notes was explored that would allow students to blur the definition side of their notes for self-testing, a proven and high utility study strategy.</p>
     </div>
-    <div class="os-screen-wrap"><img src="../images/new-note-format.png" srcset="../images/new-note-format.png 500w, ../images/new-note-format.png 800w, ../images/new-note-format.png 1440w" sizes="(max-width: 991px) 100vw, 2833.9375px" alt="" class="openstax-screen">
+    <div class="os-screen-wrap"><img src="../images/new-note-format.png" srcset="../images/new-note-format-p-500.png 500w, ../images/new-note-format-p-800.png 800w, ../images/new-note-format.png 1440w" sizes="(max-width: 991px) 95vw, 2656.824951171875px" alt="" class="openstax-screen">
       <div class="openstax-img-label">Students can choose between 3 note formats</div>
     </div>
-    <div class="os-screen-wrap"><img src="../images/cornell.png" srcset="../images/cornell.png 500w, ../images/cornell.png 800w, ../images/cornell.png 1080w, ../images/cornell.png 1440w" sizes="(max-width: 991px) 100vw, 2833.9375px" alt="" class="openstax-screen">
+    <div class="os-screen-wrap"><img src="../images/cornell.png" srcset="../images/cornell-p-500.png 500w, ../images/cornell-p-800.png 800w, ../images/cornell-p-1080.png 1080w, ../images/cornell.png 1440w" sizes="(max-width: 991px) 95vw, 2656.824951171875px" alt="" class="openstax-screen">
       <div class="openstax-img-label">Cornell notes</div>
     </div>
-    <div class="os-screen-wrap"><img src="../images/cornell-hidden.png" srcset="../images/cornell-hidden.png 500w, ../images/cornell-hidden.png 800w, ../images/cornell-hidden.png 1440w" sizes="(max-width: 991px) 100vw, 2833.9375px" alt="" class="openstax-screen">
+    <div class="os-screen-wrap"><img src="../images/cornell-hidden.png" srcset="../images/cornell-hidden-p-500.png 500w, ../images/cornell-hidden-p-800.png 800w, ../images/cornell-hidden.png 1440w" sizes="(max-width: 991px) 95vw, 2656.824951171875px" alt="" class="openstax-screen">
       <div class="openstax-img-label">Cornell notes feature with definition side of notes hidden</div>
     </div>
   </div>
