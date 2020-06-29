@@ -841,6 +841,9 @@ img {
 
 .text-content.inline {
   display: inline-block;
+}
+
+.text-content.inline.multiple {
   margin-right: 20px;
 }
 
