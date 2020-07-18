@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!--  This site was created in Webflow. http://www.webflow.com  -->
-<!--  Last Published: Tue Jun 30 2020 02:01:27 GMT+0000 (Coordinated Universal Time)  -->
+<!--  Last Published: Sat Jul 18 2020 01:19:54 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="5ef39a055f51586139434b3f" data-wf-site="5ee0e3753d949785180545b1">
 <head>
   <meta charset="utf-8">
@@ -20,12 +20,12 @@
   <link href="../images/webclip.png" rel="apple-touch-icon">
 </head>
 <body>
-  <div class="loading">
+  <div style="height:100%" class="loading">
     <div class="loading-icon-wrap"><img src="../images/logo-c.svg" alt="" class="logo-base"><img src="../images/logo-exclamation.svg" alt="" class="logo-abs"></div>
   </div>
   <div data-collapse="small" data-animation="default" data-duration="400" role="banner" class="navbar w-nav">
     <div class="nav-container w-container"><a href="../index.html" data-w-id="221e8dc1-0f62-c473-4791-19731ed72b65" class="brand w-nav-brand"><img src="../images/logo-c.svg" height="30" alt="" class="home-icon-base"><img src="../images/logo-exclamation.svg" width="30" alt="" class="home-icon-anim"></a>
-      <nav role="navigation" class="nav-menu w-nav-menu"><a href="../index.html" class="nav-link w-nav-link">Projects</a><a href="../about.html" class="nav-link w-nav-link">About me</a><a href="../documents/andycheng.pdf" target="_blank" class="nav-link w-nav-link">Resume</a><a href="mailto:andy.m.cheng@rice.edu" class="nav-link w-nav-link">Contact me</a></nav>
+      <nav role="navigation" class="nav-menu w-nav-menu"><a href="../index.html" data-w-id="221e8dc1-0f62-c473-4791-19731ed72b68" class="nav-link w-nav-link">Projects</a><a href="../about.html" data-w-id="221e8dc1-0f62-c473-4791-19731ed72b6a" class="nav-link w-nav-link">About me</a><a href="../documents/andycheng.pdf" target="_blank" class="nav-link w-nav-link">Resume</a><a href="mailto:andy.m.cheng@rice.edu" class="nav-link w-nav-link">Contact me</a></nav>
     </div>
   </div>
   <div class="footer">
@@ -303,5 +303,28 @@
   <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.4.1.min.220afd743d.js?site=5ee0e3753d949785180545b1" type="text/javascript" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
   <script src="../js/webflow.js" type="text/javascript"></script>
   <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
+  <script>
+$('.nav-link').click(function (e) {
+    e.preventDefault();
+    var goTo = this.getAttribute("href");
+    setTimeout(function(){
+         window.location = goTo;
+    },1000);       
+});
+$('.brand').click(function (e) {
+    e.preventDefault();
+    var goTo = this.getAttribute("href");
+    setTimeout(function(){
+         window.location = goTo;
+    },1000);       
+});
+$('.proj-button').click(function (e) {
+    e.preventDefault();
+    var goTo = this.getAttribute("href");
+    setTimeout(function(){
+         window.location = goTo;
+    },1000);       
+});
+</script>
 </body>
 </html>
