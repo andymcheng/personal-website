@@ -1392,7 +1392,7 @@ img {
     justify-content: space-around;
   }
   .project-card {
-    width: 100vw;
+    width: 100%;
     min-width: 0px;
     margin-bottom: 120px;
   }
