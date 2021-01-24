@@ -34,8 +34,8 @@ p {
 
 .nav-link {
   margin-left: 48px;
-  padding-top: 16px;
-  padding-bottom: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
   font-size: 20px;
   line-height: 20px;
   font-weight: 500;
@@ -59,7 +59,7 @@ p {
   padding-top: 16px;
   padding-bottom: 16px;
   background-color: #fff;
-  box-shadow: 3px 3px 4px 0 rgba(0, 0, 0, 0.25);
+  box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.32);
 }
 
 .nav-container {
@@ -202,7 +202,7 @@ p {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  margin-left: 48px;
+  margin-left: 80px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -284,6 +284,14 @@ p {
 
 .container.landing {
   margin-top: 20vh;
+}
+
+.container.landing.xl {
+  max-width: none;
+}
+
+.container.xl {
+  max-width: none;
 }
 
 .footer-content {
@@ -910,23 +918,28 @@ p {
 }
 
 .home-img {
-  height: 60vh;
+  height: 55vh;
 }
 
 .disp-md {
   margin-top: 16px;
-  margin-bottom: 16px;
+  margin-bottom: 32px;
   color: #00a790;
   font-size: 32px;
   line-height: 48px;
 }
 
 .mockup-right {
-  height: 70vh;
+  height: 75vh;
 }
 
 .mockup-right.short {
   width: 100%;
+  height: auto;
+}
+
+.mockup-right.native {
+  width: 1000px;
   height: auto;
 }
 
@@ -937,10 +950,15 @@ p {
   display: flex;
   margin-top: 240px;
   margin-bottom: 240px;
-  -webkit-box-pack: start;
-  -webkit-justify-content: flex-start;
-  -ms-flex-pack: start;
-  justify-content: flex-start;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   -webkit-box-align: center;
   -webkit-align-items: center;
   -ms-flex-align: center;
@@ -952,8 +970,9 @@ p {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  width: 600px;
+  max-width: 800px;
   min-width: 600px;
+  margin-right: 96px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -962,6 +981,7 @@ p {
 }
 
 .proj-text-wrap.left {
+  min-width: 600px;
   margin-right: 40px;
   margin-left: 0px;
 }
@@ -1104,6 +1124,10 @@ p {
 .proj-img.captioned {
   margin-top: 16px;
   box-shadow: 1px 1px 3px 0 #000;
+}
+
+.proj-img.credited {
+  margin-bottom: 0px;
 }
 
 .proj-icon {
