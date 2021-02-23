@@ -318,10 +318,15 @@ a {
 }
 
 .copyright-wrap {
+  display: flex;
   margin-top: 40px;
   -webkit-align-self: flex-start;
   -ms-flex-item-align: start;
   align-self: flex-start;
+}
+
+.copyright {
+  margin-right: 8px;
 }
 
 .text-link {
@@ -1514,7 +1519,6 @@ a {
 
   .copyright {
     width: 20px;
-    margin-right: 8px;
   }
 
   .figma-embed-container {
