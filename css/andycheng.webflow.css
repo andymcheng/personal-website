@@ -261,6 +261,7 @@ a {
 
 .footer {
   margin-top: auto;
+  padding-top: 120px;
   -webkit-box-ordinal-group: 2;
   -webkit-order: 1;
   -ms-flex-order: 1;
@@ -303,7 +304,7 @@ a {
   display: -ms-flexbox;
   display: flex;
   width: 80vw;
-  max-width: 960px;
+  max-width: 880px;
   margin-top: 44px;
   margin-bottom: 44px;
   -webkit-box-orient: vertical;
@@ -318,15 +319,18 @@ a {
 }
 
 .copyright-wrap {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
-  margin-top: 40px;
+  margin-top: 64px;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-align-self: flex-start;
   -ms-flex-item-align: start;
   align-self: flex-start;
-}
-
-.copyright {
-  margin-right: 8px;
 }
 
 .text-link {
@@ -338,21 +342,12 @@ a {
   color: #00a790;
 }
 
-.text-link.lg {
-  font-size: 24px;
-}
-
 .footer-links-wrap {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  width: 200px;
   margin-top: 24px;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
   -webkit-box-align: center;
   -webkit-align-items: center;
   -ms-flex-align: center;
@@ -904,7 +899,8 @@ a {
 
 .text-lg {
   font-size: 32px;
-  line-height: 48px;
+  line-height: 64px;
+  font-weight: 400;
 }
 
 .proj-intro-wrap {
@@ -1066,10 +1062,6 @@ a {
   flex-direction: column;
 }
 
-.paragraph-2 {
-  margin-bottom: 0px;
-}
-
 .bullet-wrap {
   display: -webkit-box;
   display: -webkit-flex;
@@ -1196,6 +1188,7 @@ a {
 
 .paragraph-lg.lg-space {
   line-height: 48px;
+  font-weight: 400;
 }
 
 .paragraph-lg.lg-space.m-bot {
@@ -1214,8 +1207,19 @@ a {
   margin-bottom: 120px;
 }
 
+.copyright {
+  height: 20px;
+  margin-right: 8px;
+}
+
 .figma-embed-container {
   width: 880px;
+}
+
+.contact-x {
+  width: 24px;
+  margin-right: 32px;
+  margin-left: 32px;
 }
 
 @media screen and (max-width: 991px) {
@@ -1316,11 +1320,6 @@ a {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-  }
-
-  .text-link.lg {
-    font-size: 20px;
-    line-height: 28px;
   }
 
   .about-img {
